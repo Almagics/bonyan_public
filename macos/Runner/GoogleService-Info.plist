@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyArtkivdYdtVMKOSIe9Ar1wwUWqYBiNpEs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>380101128497</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.bonyan.bonyan</string>
+	<key>PROJECT_ID</key>
+	<string>bonyan-69932</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bonyan-69932.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:380101128497:ios:28c5352c69221ea17dc010</string>
+</dict>
+</plist>
