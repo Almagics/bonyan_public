@@ -41,11 +41,25 @@ class FirebaseAuthService{
     try {
       UserCredential credential = await _auth.signInWithEmailAndPassword(
           email: email, password: password);
+      return credential.user;
     } catch (e) {
       print(e);
     }
 
     return null;
+  }
+
+
+
+  Future<bool> signOut() async {
+    try {
+      await FirebaseAuth.instance.signOut();
+      return true;
+    } catch (e) {
+      print("Error signing out: $e");
+      return false;
+    }
+
   }
 
 

@@ -67,6 +67,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '380101128497',
     projectId: 'bonyan-69932',
     storageBucket: 'bonyan-69932.appspot.com',
+    androidClientId: '380101128497-rdpa2llnssksr0uk013ia06rorphcull.apps.googleusercontent.com',
+    iosClientId: '380101128497-okr9ho521a6v2mj71hqf1ugrms3v9rce.apps.googleusercontent.com',
     iosBundleId: 'com.bonyan.bonyan',
   );
 
@@ -76,6 +78,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '380101128497',
     projectId: 'bonyan-69932',
     storageBucket: 'bonyan-69932.appspot.com',
+    androidClientId: '380101128497-rdpa2llnssksr0uk013ia06rorphcull.apps.googleusercontent.com',
+    iosClientId: '380101128497-okr9ho521a6v2mj71hqf1ugrms3v9rce.apps.googleusercontent.com',
     iosBundleId: 'com.bonyan.bonyan',
   );
 }

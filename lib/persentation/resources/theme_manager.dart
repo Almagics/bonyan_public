@@ -37,7 +37,7 @@ splashColor: ColorManager.lightPrimary,
 
   appBarTheme: AppBarTheme(
     centerTitle:true,
-    color: ColorManager.primary,
+    color: ColorManager.white,
     elevation: AppSize.s4,
     shadowColor: ColorManager.lightGrey,
     titleTextStyle: getRegularStyle(fontSize: FontSize.s16, color: ColorManager.white)

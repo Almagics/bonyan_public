@@ -14,7 +14,15 @@
       },
       "oauth_client": [
         {
-          "client_id": "380101128497-i2g0l8jjruuek17ilgib98pftfoaia75.apps.googleusercontent.com",
+          "client_id": "380101128497-rdpa2llnssksr0uk013ia06rorphcull.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bonyan.bonyan",
+            "certificate_hash": "63322e6e0e89992ede135d773050347fa0ef8057"
+          }
+        },
+        {
+          "client_id": "380101128497-3vknqjo7t70cqsadsboqq1rirl4hgh6h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -27,8 +35,15 @@
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "380101128497-i2g0l8jjruuek17ilgib98pftfoaia75.apps.googleusercontent.com",
+              "client_id": "380101128497-3vknqjo7t70cqsadsboqq1rirl4hgh6h.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "380101128497-okr9ho521a6v2mj71hqf1ugrms3v9rce.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.bonyan.bonyan"
+              }
             }
           ]
         }
