@@ -112,10 +112,16 @@ class _LoginViewState extends State<LoginView> {
                 Container(
                   padding: const EdgeInsets.all(8.0),
                   child: Center(
-                    child: Text(
-                      AppStrings.forgetPassword,
-                      style: Theme.of(context).textTheme.headlineMedium,
+                    child: GestureDetector(
+                      onTap: (){
+                        Navigator.pushReplacementNamed(context, Routes.forgetpassword);
 
+                      },
+                      child: Text(
+                        AppStrings.forgetPassword,
+                        style: Theme.of(context).textTheme.headlineMedium,
+
+                      ),
                     ),
                   ),
                 ),

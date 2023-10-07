@@ -9,20 +9,19 @@ class Profile extends StatelessWidget {
     return Scaffold(
         backgroundColor: Colors.grey.shade50,
         body: SingleChildScrollView(
-          child: Column(
-            children: <Widget>[
-              //==========================================================================================
-              // build Top Section of Profile (include : Image & main info & card of info[photos ... ] )
-              //==========================================================================================
-              _buildHeader(context, widthC),
+          child: Directionality(
+            textDirection: TextDirection.rtl,
+            child: Column(
+              children: <Widget>[
 
-              SizedBox(height: 10.0),
+                _buildHeader(context, widthC),
 
-              //==========================================================================================
-              //  build Bottom Section of Profile (include : email - phone number - about - location )
-              //==========================================================================================
-              _buildInfo(context, widthC),
-            ],
+                SizedBox(height: 10.0),
+
+
+                _buildInfo(context, widthC),
+              ],
+            ),
           ),
         ));
   }
@@ -79,7 +78,7 @@ class Profile extends StatelessWidget {
     return Column(
       children: <Widget>[
         Container(
-          padding: EdgeInsets.only(top: 20, left: 20, right: 20),
+          padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
           child: Card(
             elevation: 5.0,
             color: Colors.white,
@@ -89,12 +88,12 @@ class Profile extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
-                  new Column(
+                  Column(
                     mainAxisSize: MainAxisSize.max,
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: <Widget>[
-                      new Text(
-                        'Photos',
+                      Text(
+                        'الطلبات',
                         style: new TextStyle(
                             fontSize: 18.0,
                             color: Colors.black,
@@ -102,9 +101,9 @@ class Profile extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(top: 6.0),
-                        child: new Text(
+                        child: Text(
                           '15',
-                          style: new TextStyle(
+                          style: TextStyle(
                               fontSize: 18.0,
                               color: Color(0Xffde6262),
                               fontWeight: FontWeight.w600),
@@ -115,7 +114,7 @@ class Profile extends StatelessWidget {
                   new Column(
                     children: <Widget>[
                       new Text(
-                        'Followers',
+                        'التصاميم',
                         style: new TextStyle(
                             fontSize: 18.0,
                             color: Colors.black,
@@ -136,7 +135,7 @@ class Profile extends StatelessWidget {
                   new Column(
                     children: <Widget>[
                       new Text(
-                        'Following',
+                        'المنتجات',
                         style: new TextStyle(
                             fontSize: 18.0,
                             color: Colors.black,
@@ -170,13 +169,13 @@ class Profile extends StatelessWidget {
       alignment: AlignmentDirectional.center,
       child: Column(
         children: <Widget>[
-          Text('Lorem Ipsum',
+          Text('Test User',
               style: TextStyle(
                   fontSize: 20,
                   color: Colors.teal,
                   fontWeight: FontWeight.bold)),
           SizedBox(height: 10),
-          Text('Flutter',
+          Text('مشتري',
               style: TextStyle(
                   color: Colors.grey.shade50, fontStyle: FontStyle.italic))
         ],
@@ -199,9 +198,9 @@ class Profile extends StatelessWidget {
                     ListTile(
                       leading:
                       Icon(Icons.email, color: ColorManager.primary),
-                      title: Text("E-Mail",
+                      title: const Text("البريد الالكتروني",
                           style: TextStyle(fontSize: 18, color: Colors.black)),
-                      subtitle: Text("email@gmailc.com",
+                      subtitle: const Text("email@gmailc.com",
                           style:
                           TextStyle(fontSize: 15, color: Colors.black54)),
                     ),
@@ -209,7 +208,7 @@ class Profile extends StatelessWidget {
                     ListTile(
                       leading:
                       Icon(Icons.phone, color: ColorManager.primary),
-                      title: Text("Phone Number",
+                      title: Text("رقم الهاتف",
                           style: TextStyle(fontSize: 18, color: Colors.black)),
                       subtitle: Text("11-111111-11",
                           style:
@@ -219,22 +218,22 @@ class Profile extends StatelessWidget {
                     ListTile(
                       leading:
                       Icon(Icons.person, color: ColorManager.primary),
-                      title: Text("About",
+                      title: Text("نبذة",
                           style: TextStyle(fontSize: 18, color: Colors.black)),
                       subtitle: Text(
-                          "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                          "مصمم اثاث محترف",
                           style:
                           TextStyle(fontSize: 15, color: Colors.black54)),
                     ),
                     Divider(),
                     ListTile(
                       contentPadding:
-                      EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+                      const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
                       leading: Icon(Icons.my_location,
                           color: ColorManager.primary),
-                      title: Text("Location",
+                      title: Text("العن،ان",
                           style: TextStyle(fontSize: 18, color: Colors.black)),
-                      subtitle: Text("Canada",
+                      subtitle: Text("السعودية",
                           style:
                           TextStyle(fontSize: 15, color: Colors.black54)),
                     ),

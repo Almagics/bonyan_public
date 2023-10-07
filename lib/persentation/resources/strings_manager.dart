@@ -40,6 +40,7 @@ class AppStrings{
 
   static const designersTitle = "قائمة المصممين";
   static const contacttitle = "ماهي تفاصيل تقديم الشكوى؟!";
+  static const forgetpasswordtitle = "نسيت كلمة المرور";
 
 
 
