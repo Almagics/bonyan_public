@@ -248,7 +248,7 @@ const SizedBox(height: 10,),
     User? user = await _auth.signInWithEmailAndPassword(email, password);
 
 
-
+    Navigator.pushReplacementNamed(context, Routes.newhome);
 
 
     if(user!= null){

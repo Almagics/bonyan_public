@@ -81,7 +81,7 @@ elevatedButtonTheme: ElevatedButtonThemeData(
   textTheme: TextTheme(
     headlineLarge: getBoldStyle(color: ColorManager.black,fontSize: FontSize.s30),
     headlineMedium: getRegularStyle(color: ColorManager.grey,fontSize: FontSize.s14),
-    titleLarge: getMediumStyle(color: ColorManager.lightGrey,fontSize: FontSize.s14),
+    titleLarge: getMediumStyle(color: ColorManager.lightGrey,fontSize: FontSize.s16),
     bodyLarge: getRegularStyle(color: ColorManager.grey1),
     bodySmall: getRegularStyle(color: ColorManager.lightGrey),
     displayLarge:getBoldStyle(color: ColorManager.primary,fontSize: FontSize.s30),

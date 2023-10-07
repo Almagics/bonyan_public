@@ -75,6 +75,14 @@ flutter:
     - assets/images/slider/sold_circle_icon.png
     - assets/images/facebook.png
     - assets/images/google.png
+    - assets/images/home/design.png
+    - assets/images/home/store.png
+    - assets/images/store/
+    - assets/images/designers/
+    - assets/images/orders/
+    - assets/images/contact/
+    - assets/images/products/
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 

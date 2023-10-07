@@ -31,7 +31,15 @@ class AppStrings{
   static const phone = "رقم الهاتف";
   static const enterPhone = "اةخل دقم الهاتف";
   static const acceptTerms = "أوافق على شروط الاستخدام وسياسة الخصوصية";
-  static const register ="انشاء حساب جديد";
+  static const register ="تسجيل مستخدم جديد";
+  static const barn ="بوتري بارن للأثاث";
+  static const ebiat ="ابيات للأثاث";
+  static const ikia ="إيكيا للأثاث";
+  static const saria ="سرايا رووم للأثاث";
+  static const storeTitle = "محلات الاثاث";
+
+  static const designersTitle = "قائمة المصممين";
+  static const contacttitle = "ماهي تفاصيل تقديم الشكوى؟!";
 
 
 

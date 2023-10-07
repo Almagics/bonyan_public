@@ -8,7 +8,11 @@ import 'package:bonyan/persentation/resources/strings_manager.dart';
 import 'package:bonyan/persentation/splash/splash_view.dart';
 import 'package:bonyan/persentation/store_details/store_details_view.dart';
 
+import '../appbar_bottom/bottomNavNew.dart';
+import '../designers/designer_list.dart';
 import '../onboarding/onboarding_view.dart';
+import '../profile/pofile_info.dart';
+import '../store_details/store_list_view.dart';
 
 class Routes {
   static const String splashRoute = "/";
@@ -18,6 +22,12 @@ class Routes {
   static const String mainRoute = "/main";
   static const String storeDetailsRoute = "/storeDetails";
   static const String onBoarding = "/onBoarding";
+  static const String store = "/store";
+  static const String designers = "/designer";
+
+  static const String newhome = "/newhome";
+
+  static const String profile = "/profile";
 }
 
 class RouteGenerator {
@@ -43,6 +53,21 @@ class RouteGenerator {
 
       case Routes.onBoarding:
         return MaterialPageRoute(builder: (_) => const OnBoardingView());
+
+      case Routes.store:
+        return MaterialPageRoute(builder: (_) => const StoreView());
+
+      case Routes.newhome:
+        return MaterialPageRoute(builder: (_) => const BottomNavBarDemo());
+
+
+      case Routes.profile:
+        return MaterialPageRoute(builder: (_) =>  Profile());
+
+
+      case Routes.designers:
+        return MaterialPageRoute(builder: (_) => const DesignersListView());
+
       default:
         return unDefiendRoute();
     }
